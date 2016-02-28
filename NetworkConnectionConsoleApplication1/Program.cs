@@ -35,7 +35,7 @@ namespace NetworkConnectionConsoleApplication1
                 string data = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
                 byte[] buffer = Encoding.ASCII.GetBytes(data);
 
-                // Wait 10 seconds for a reply.
+                // Wait 5 seconds for a reply.
                 int timeout = 5000;
                 PingReply reply;
                 int waitBetweenChecks = 30000;
